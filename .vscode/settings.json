@@ -1,0 +1,9 @@
+{
+    "go.testOnSave": true,
+    "remote.WSL.fileWatcher.polling": true,
+    "go.lintTool":"golangci-lint",
+    "go.lintFlags": [
+		  "--fast"
+    ],
+    "go.envFile": "${workspaceFolder}/.env"
+}
